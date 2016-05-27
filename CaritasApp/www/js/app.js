@@ -57,6 +57,42 @@ angular.module('app', ['ionic', 'app.controllers', 'app.services'])
     controller: 'altePersonCtrl'
   })
 
+  .state('alleinerziehendePerson', {
+    url: '/alleinerziehend',
+    templateUrl: 'templates/alleinerziehendePerson.html',
+    controller: 'alleinerziehendePersonCtrl'
+  })
+
+  .state('warumHilfe', {
+    url: '/allein_1_hilfe',
+    templateUrl: 'templates/warumHilfe.html',
+    controller: 'warumHilfeCtrl'
+  })
+
+  .state('kind', {
+    url: '/allein_2_Kind',
+    templateUrl: 'templates/kind.html',
+    controller: 'kindCtrl'
+  })
+
+  .state('rechtliches', {
+    url: '/allein_3_recht',
+    templateUrl: 'templates/rechtliches.html',
+    controller: 'rechtlichesCtrl'
+  })
+
+  .state('kontakt', {
+    url: '/allein_5_Kontakt',
+    templateUrl: 'templates/kontakt.html',
+    controller: 'kontaktCtrl'
+  })
+
+  .state('literaturempfehlungen', {
+    url: '/allein_4_literatur',
+    templateUrl: 'templates/literaturempfehlungen.html',
+    controller: 'literaturempfehlungenCtrl'
+  })
+
 $urlRouterProvider.otherwise('/starseite')
 
   
