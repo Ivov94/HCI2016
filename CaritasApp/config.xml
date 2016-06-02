@@ -9,6 +9,8 @@
     </author>
   <content src="index.html"/>
   <access origin="*"/>
+  <access origin="tel:*" launch-external="yes" />
+  <access origin="mailto:*" launch-external="yes" />
   <preference name="webviewbounce" value="false"/>
   <preference name="UIWebViewBounce" value="false"/>
   <preference name="DisallowOverscroll" value="true"/>
@@ -72,8 +74,4 @@
     <splash src="resources/ios/splash/Default@2x~iphone.png" height="960" width="640"/>
     <splash src="resources/ios/splash/Default~iphone.png" height="480" width="320"/>
   </platform>
-  <vs:plugin name="plugin.google.maps">
-    <param name="API_KEY_FOR_ANDROID" value="AIzaSyBXNHN0247r1r7oCLl90MwOL1QV7Eh2EuA"/>
-    <param name="API_KEY_FOR_IOS" value="YOUR_API_KEY_IS_HERE"/>
-  </vs:plugin>
 </widget>
