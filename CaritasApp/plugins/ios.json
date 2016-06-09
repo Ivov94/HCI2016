@@ -1,0 +1,21 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.ionicframework.caritasapp253360"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.ionicframework.caritasapp253360"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.ionicframework.caritasapp253360"
+        }
+    },
+    "dependent_plugins": {}
+}
